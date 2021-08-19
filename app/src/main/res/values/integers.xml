@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="REQUEST_CODE_ASK_PERMISSIONS">1</integer>
+    <integer name="REQUEST_CODE_ENABLE_ADMIN">47</integer>
+    <integer name="REQUEST_CODE_ASK_PERMISSIONS_CALL">2</integer>
+    <integer name="REQUEST_CODE_ASK_PERMISSIONS_CALL_EDIT">4</integer>
+    <integer name="REQUEST_CODE_ASK_PERMISSIONS_EDIT">3</integer>
+</resources>

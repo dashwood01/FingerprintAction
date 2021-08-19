@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnAction_accept"
+        android:icon="@drawable/ic_accept"
+        android:orderInCategory="300"
+        android:title="@string/action_accept"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnAction_close"
+        android:icon="@drawable/ic_close"
+        android:orderInCategory="200"
+        android:title="@string/action_close"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnAction_delete"
+        android:icon="@drawable/ic_trash"
+        android:orderInCategory="100"
+        android:title="@string/action_delete"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        />
+
+</menu>

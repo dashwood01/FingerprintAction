@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">Fingerprint Sensor</string>
+    <string name="app_title">Fingerprint Sensor</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_name_action">Actions name</string>
+    <string name="hint_description_action">Description</string>
+    <string name="button_text_action_cancel">Cancel</string>
+    <string name="button_text_action_accept">Accept</string>
+    <string name="hint_count">Custom num</string>
+    <string name="radio_count_one">1</string>
+    <string name="radio_count_two">2</string>
+    <string name="radio_count_three">3</string>
+    <string name="radio_count_fore">4</string>
+    <string name="radio_count_five">5</string>
+    <string name="radio_count_six">6</string>
+    <string name="radio_count_seven">7</string>
+    <string name="radio_count_eight">8</string>
+    <string name="radio_count_nine">9</string>
+    <string name="check_do_app">Apps</string>
+    <string name="check_do_work">Actions</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_close">Cancel</string>
+    <string name="pref_home_app">homeAppPackage</string>
+    <string name="pref_key_app">KEY_APP_TO_BE_RUN</string>
+    <string name="error_toast_CountAction">Please enter number of touch</string>
+    <string name="error_toast_NameAction">Please enter action name</string>
+    <string name="error_toast_DoAction">Please select one application</string>
+    <string name="error_toast_enter_value">Please enter all values</string>
+    <string name="check_do_call">Call</string>
+    <string name="check_do_message">SMS</string>
+    <string name="permissionAlert">Application need permission for use something</string>
+    <string name="permissionQuestion">Are you sure ?</string>
+    <string name="permissionDenied">Not allow permission, Please allow permission in settings</string>
+    <string name="progress_loading_title">Declaration</string>
+    <string name="progress_loading_message">Please wait</string>
+    <string name="check_feild_fp">fail finger</string>
+    <string name="check_succefully_fp">Successful finger</string>
+    <string name="check_fast_fp">Speed motion</string>
+
+    <string-array name="actions_work">
+        <item>Wifi</item>
+        <item>Bluetooth</item>
+        <item>Flashlight</item>
+        <item>Home screen</item>
+        <item>Lock screen</item>
+        <item>Music</item>
+        <item>Vibrator</item>
+        <item>Volume</item>
+    </string-array>
+
+    <string-array name="action_value_work">
+        <item>wifi</item>
+        <item>bluetooth</item>
+        <item>flashlight</item>
+        <item>home</item>
+        <item>lock</item>
+        <item>music</item>
+        <item>vibrate</item>
+        <item>volume</item>
+    </string-array>
+
+    <string-array name="music_work">
+        <item>Play</item>
+        <item>Stop</item>
+        <item>Next</item>
+        <item>Previously</item>
+    </string-array>
+
+    <string-array name="music_value_action">
+        <item>play</item>
+        <item>stop</item>
+        <item>next</item>
+        <item>backward</item>
+    </string-array>
+
+    <string-array name="volume_work">
+        <item>Down</item>
+        <item>Up</item>
+    </string-array>
+    <string-array name="volume_work_value">
+        <item>down</item>
+        <item>up</item>
+    </string-array>
+
+    <!-- for Dialog Message -->
+    <string name="dialog_example_title">Help</string>
+    <string name="dialog_example_message_fastfinger">Fast motion : \n For use this motion you must very fast and select what number under this option, You must very fast because maybe device can find your finger \n\n Do you want show this help again?</string>
+    <string name="dialog_example_message_succefulfinger">Successful finger : \n Your fingers should choose which device you\'ve registered. \n\n Do you want show this help again?</string>
+    <string name="dialog_example_message_failfinger">Fail finger : \n Just use any finger except successful finger \n\n Do you want show this help again?</string>
+    <string name="dialog_example_message_dowork">Actions : \n This option for turn on or off wifi or bluetooth and etc. \n\n Do you want show this help again?</string>
+    <string name="dialog_example_message_doapp">This option for open any application \n \n Do you want show this help again?</string>
+    <string name="dialog_example_message_docall">Call : \n This option for call any contact in your device \n\n Do you want show this help again?</string>
+    <string name="dialog_example_message_domessage">SMS : \n This option for send text message to any contact \n\n Do you want show this help again?</string>
+
+    <!-- sharedpreferences Key and PrefHome -->
+    <string name="PREF_HOME_CHECKER_FASTFINGER">PREF_HOME_CHECK_FASTFINGER</string>
+    <string name="KEY_CHECKER_FASTFINGER">KEY_CHECK_FASTFINGER</string>
+    <string name="PREF_HOME_CHECKER_FAILFINGER">PREF_HOME_CHECK_FAILFINGER</string>
+    <string name="KEY_CHECKER_FAILFINGER">KEY_CHECK_FAILFINGER</string>
+    <string name="PREF_HOME_CHECKER_SUCCEFULFINGER">PREF_HOME_CHECK_SUCCEFULFINGER</string>
+    <string name="KEY_CHECKER_SUCCEFULFINGER">KEY_CHECK_SUCCEFULFINGER</string>
+    <string name="PREF_HOME_CHECKER_DO_APP">PREF_HOME_CHECK_DO_APP</string>
+    <string name="KEY_CHECKER_DO_APP">KEY_CHECK_DO_APP</string>
+    <string name="PREF_HOME_CHECKER_DO_WORK">PREF_HOME_CHECK_DO_WORK</string>
+    <string name="KEY_CHECKER_DO_WORK">KEY_CHECK_DO_WORK</string>
+    <string name="PREF_HOME_CHECKER_DO_CALL">PREF_HOME_CHECK_DO_CALL</string>
+    <string name="KEY_CHECKER_DO_CALL">KEY_CHECK_DO_CALL</string>
+    <string name="PREF_HOME_CHECKER_DO_MESSAGE">PREF_HOME_CHECK_DO_MESSAGE</string>
+    <string name="KEY_CHECKER_DO_MESSAGE">KEY_CHECK_DO_MESSAGE</string>
+    <string name="PREF_HOME_CHECKER_PERMISSION">PREF_HOME_CHECK_PERMISSION</string>
+    <string name="KEY_CHECKER_PERMISSION">KEY_CHECK_PERMISSION</string>
+    <string name="PREF_HOME_CHECKER_INTROSCREEN">PREF_HOME_CHECK_INTROSCREEN</string>
+    <string name="KEY_CHECKER_INTROSCREEN">KEY_CHECK_INTROSCREEN</string>
+    <string name="PREF_HOME_CHECKER_CREATE_FINGERPRINT_SERVICE">PREF_HOME_FINGERPRINT_SERVICE</string>
+    <string name="KEY_CHECKER_CREATE_FINGERPRINT_SERVICE">KEY_CHECKER_FRINGERPRINT_SERVICE</string>
+    <string name="preference_key_admin">PREFERENCE_KEY_ADMIN_LOCK_SCREEN</string>
+
+
+    <!-- for Dialog message Question -->
+    <string name="dialog_question_message_show_or_not">Are you want to show this help?</string>
+    <string name="dialog_button_positive_text_check">I want</string>
+    <string name="dialog_button_negative_text_check">No</string>
+    <string name="text_example_action_count">Number touch</string>
+    <string name="dialog_button_positive_yes">OK!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_button_negative_no">No</string>
+    <string name="text_permission_helping">Please allow all permission for better use application \n Until denied permission you can not use application</string>
+    <string name="btn_permission">Request permission</string>
+    <string name="error_toast_fingerprint">Please select one fingerprint motion</string>
+    <string name="succeful_toast_insert">Information saved</string>
+    <string name="permission_toast_getpermission">Please allow permissions</string>
+    <string name="error_toast_not_insert">Information not saved \n</string>
+
+
+    <string name="help_body_message">Please for best usage application all permission allow.\n\n <b>Note one </b> : \n If you have application use fingerprint please after use application, lock your device and then open it again. \n\n <b>Note Two</b> : \n Read all helping when use application, Very helpful.\n\n<b>Note Three</b> : \n If fingerprint on front your device, You can use delay time in settings, This setting for better usage\n\n <b>Note four</b> : \n If you use fail finger you must know after a few time use, fingerprint disable and for enabled again you must lock device.</string>
+
+
+    <!-- for Action Checker And Finger Checker -->
+    <string name="doCall">call</string>
+    <string name="doMessage">message</string>
+    <string name="doWork">work</string>
+    <string name="doApp">app</string>
+    <string name="fingerFast">fast</string>
+    <string name="fingerSucceful">succeful</string>
+    <string name="fingerFail">fail</string>
+    <string name="preference_desciption_setting">For use all action please allow this service</string>
+    <string name="preference_title_check_front_fp">Sensor delay</string>
+    <string name="preference_summery_check_front_fp">This option for front sensor device, It might be good</string>
+    <string name="preference_summery_check_front_fp_help">For use this option you must very quickly touch sensor twice, when you feeling first vibrator u have limit time for use action and after feel second vibrator  u must again touch fast twice. \n\n Do you want show this help ?</string>
+    <string name="preference_key_check_front_fp">CHECK_FP_SLEEP_MOMENT</string>
+    <string name="preference_title_edit_timer">Sensor delay time</string>
+    <string name="preference_summery_edt_timer">This option for fast number touch " fast motion " or slow touch, For example this time five seconds entry, You have five seconds delay to run action. \n Is in second. \n For changed setting ones lock your device.</string>
+    <string name="preference_key_edt_timer">TIMER_FOR_ZERO_COUNT</string>
+    <string name="preference_title_dialog_edt_timer">Sensor delay time</string>
+    <string name="preference_message_dialog_edt_timer">Enter your seconds time</string>
+    <string name="preference_text_btn_positive_dialog">Save</string>
+    <string name="preference_text_btn_negative_dialog">Cancel</string>
+    <string name="error_toast_admin_not_active">You must allow special permission in settings</string>
+    <string name="preference_title_admin">Special Permission</string>
+    <string name="preference_summery_admin">This permission just use for lock screen and for allow this permission you must go to security of settings your device. \n If allow this permission you must for delete application first deactivate permission in security settings device.</string>
+    <string name="add_admin_extra_app_text">Please allow special permission for lock screen</string>
+    <string name="toast_admin_succeful">Allow special permission</string>
+    <string name="toast_admin_for_disable">For deactivate this option you must go to security settings device</string>
+    <string name="toast_admin_for_enable">Please allow special permission</string>
+    <string name="preference_title_edit_timer_samsung">Run time</string>
+    <string name="preference_summery_edt_timer_samsung">You have a limited time to implement these measures help you to delay action time.</string>
+    <string name="preference_key_edt_timer_samsung">KEY_TIMER_SAMI_SENSOR</string>
+    <string name="PREF_HOME_CHECKER_FRONT_FP">PREF_HOME_SENSOR_FINGERPRINT</string>
+    <string name="KEY_CHECKER_FRONT_FP">KEY_CHECKER_FRONT_FINGERPRINT</string>
+    <string name="snackbar_message_edet_action">Edit for : </string>
+    <string name="snackbar_text_btn_edit_action">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="dialog_warning_delete">Are you sure ?</string>
+    <string name="toast_delete_accept">Information successful deleted</string>
+    <string name="dialog_message_for_accessibility">Please allow permissions in settings</string>
+    <string name="dialog_title_for_accessibility">Accessibility</string>
+    <string name="toast_accessibility_disable">Please allow Accessibility permission</string>
+    <string name="error_toast_fingerprint_notsupported">Your device not have fingerprint sensor</string>
+    <string name="dialog_title_for_fingerprint_setting">Fingerprint</string>
+    <string name="dialog_message_for_fingerprint">Add one Fingerprint security lock</string>
+    <string name="toast_update_accept">Information successful edited</string>
+    <string name="action_helping">Help</string>
+    <string name="action_aboutus">About us</string>
+    <string name="intro_title_first_page">Add</string>
+    <string name="intro_description_first_page">For add one action use this icon</string>
+    <string name="intro_title_second_page">Permissions</string>
+    <string name="intro_description_second_page">For use application allow all permissions</string>
+    <string name="intro_title_third_page">Enjoy</string>
+    <string name="intro_description_third_page">Before use application please read help</string>
+    <string name="dialog_message_bug_send">Error \n Are you want send to developer ?</string>
+    <string name="app_send_email">Select Email application</string>
+    <string name="activity_help">Help</string>
+    <string name="toast_error_distrub">You lock in disturb and you can\'t go to normal or vib</string>
+    <string name="toast_fail_finger">Fail finger</string>
+    <string name="label_aboutus">About Us</string>
+    <string name="mohammad_nazem">Mohammad Nazem</string>
+    <string name="gmail">iiviiohammad.nzm@gmail.com</string>
+    <string name="site">www.dashwood.ir</string>
+    <string name="toast_error_app_run">This application can\'t be run</string>
+    <string name="PREF_HOME_CHECKER_FLASHLIGHT">PREHOME_FLASHLIGHT_CHECKER</string>
+    <string name="KEY_CHECKER_FLASHLIGHT">KEY_FLASHLIGHT_CHECKER</string>
+    <string name="version">Version : 1.60</string>
+    <string name="PREF_HOME_CHECKER_HELP_VIEW">PREFHOME_CHECKER_READ_HELP</string>
+    <string name="KEY_CHECKER_HELP_VIEW">KEY_CHECKER_READ_HELP</string>
+    <string name="dialog_title_for_help">Help</string>
+    <string name="dialog_message_for_help">Please read help page before use application</string>
+    <string name="PREF_HOME_CHECKER_HELP_SETTING">PREFHOME_CHECKER_SETTING_HELPER</string>
+    <string name="KEY_CHECKER_HELP_SETTING">KEY_CHECKER_SETTING_HELPER</string>
+    <string name="dialog_message_help_setting">For accept all settings ones lock your device</string>
+    <string name="toast_sami_enable">Sensor Delay activated</string>
+    <string name="toast_end_time_deley">Sensor delay deactivated</string>
+    <string name="Attr_Toast">Toast</string>
+    <string name="toast_msg_call">Make call</string>
+    <string name="toast_msg_app">Application to be run</string>
+    <string name="toast_msg_work">Activity to be run</string>
+    <string name="toast_msg_message">SMS to be run</string>
+    <string name="toast_msg_noneAction">Action is empty</string>
+    <string name="shortcut_label_short">Add</string>
+    <string name="shortcut_label_long">Add a action</string>
+    <string name="shortcut_msg">Add a action for finger</string>
+    <string name="label_activityActions">Add and edit</string>
+    <string name="intent_putextra_edit">positionActions</string>
+    <string name="toast_update_dissmass">Edit not successful</string>
+    <string name="PREF_HOME_CHECKER_STARS">PREF_HOME_STARS_CHECKER</string>
+    <string name="KEY_CHECKER_STARS">KEY_STARTS_CHECKER_DONE</string>
+    <string name="dialog_title_for_stars">Please rate</string>
+    <string name="dialog_message_for_stars">Are you enjoy this app?\n Please rate application</string>
+    <string name="PREF_HOME_CHECKER_DAY_FOR_STARS">PREFHOME_CHECKER_FOR_DAY</string>
+    <string name="KEY_CHECKER_DAY_FOR_STARS">KEY_CHECKER_FOR_DAY</string>
+    <string name="PREF_HOME_INT_DAY">PREFHOME_INT_DAY</string>
+    <string name="KEY_INT_DAY">KEY_INT_FOR_DAY</string>
+    <string name="dialog_button_positive_stars">Rate</string>
+    <string name="dialog_button_negativeButton_stars">Don\'t show</string>
+    <string name="action_deleted">Successful delete action</string>
+    <string name="dialog_title_for_update">New Update</string>
+    <string name="dialog_message_for_update">New update now Available</string>
+    <string name="dialog_title_warning_delete">Delete</string>
+    <string name="dialog_title_permission">Permission</string>
+    <string name="preference_title_backup">Backup</string>
+    <string name="preference_summery_backup">For keep all data you can get backup</string>
+    <string name="img_description_icon_alert">icon</string>
+    <string name="PREF_HOME_CHANGE_LANGUAGE">PREF_HOME_LANG_CHANGE</string>
+    <string name="KEY_CHANGE_LANGUAGE">KEY_LANG_CHANGE</string>
+    <string name="pref_title_language">Language</string>
+    <string name="preference_summery_language">Application language</string>
+    <string name="preference_key_language">KEY_LANGUAGE</string>
+    <string name="equals_persian">فارسی</string>
+    <string name="btn_startup_next">Next</string>
+    <string name="btn_startup_skip">Skip</string>
+    <string name="btn_startup_start">Done!</string>
+    <string name="text_startup_welcome">Welcome to the Fingerprint Sensor world</string>
+    <string name="text_startup_pageone_nextstation">For use this app you must go to the next page</string>
+    <string name="text_startup_pagetwo_selectaction">Witch one you want?</string>
+    <string name="radio_swipe_action">Swipe</string>
+    <string name="radio_touch_action">Touch</string>
+
+
+    <string name="text_startup_pagethree_permission">Allow Accessibility permission\nAnd\nFingerprint security</string>
+    <string name="text_startup_pagethree_permission_btn">Touch for Allow permission</string>
+    <string name="text_startup_pagezero_select_lang">Select your Language</string>
+    <string name="text_startup_pagezero_btn_persian">فارسی</string>
+    <string name="text_startup_pagezero_btn_en">Englsh</string>
+    <string name="PREF_HOME_CHECKER_LANG_ACTIVITY">PREFHOMELANGUAGEACTIvITY</string>
+    <string name="KEY_CHECKER_LANG_ACTIVITY">KEYLANGUAGEACITIvTIY</string>
+    <string name="text_startup_pagetwo_androidoreo">Only for Android Oreo (8)</string>
+    <string name="PREF_HOME_TOUCHER_FINGERPRINT">PREFHOMETOUCHERFiNGERPRiNT</string>
+    <string name="KEY_TOUCHER_FINGERPRINT">KEYTOUCHERFiNGERPRiNT</string>
+    <string name="PREF_HOME_CHECKER_STARTUP">PREFHOMECHECKERSTARTUP</string>
+    <string name="KEY_CHECKER_STARTUP">KEYCHECKERSTARTUP</string>
+    <string name="text_startup_pagethree_security_btn">Add one Finger for security</string>
+    <string name="text_check_swipe_ones">Swipe once</string>
+    <string name="text_check_swipe_fast">Swipe fast</string>
+    <string name="text_check_swipe_up">Up</string>
+    <string name="text_check_swipe_down">Down</string>
+    <string name="text_check_swipe_left">Left</string>
+    <string name="text_check_swipe_right">Right</string>
+    <string name="text_edit_search">Search</string>
+
+
+    <string-array name="langArray">
+        <item>فارسی</item>
+        <item>English</item>
+    </string-array>
+</resources>

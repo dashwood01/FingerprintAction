@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/startup_color_three">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/bg_white"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_startup_pagezero_select_lang"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSelectLanPersian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_custom_button_page_three_color"
+            android:text="@string/text_startup_pagezero_btn_persian"
+            android:textColor="@color/bg_white" />
+
+        <Button
+            android:id="@+id/btnSelectLanEn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_custom_button_page_three_color"
+            android:text="@string/text_startup_pagezero_btn_en"
+            android:textColor="@color/bg_white" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">Fingerprint Sensor</string>
+    <string name="app_title">حسگر اثرانگشت</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="hint_name_action">نام فعالیت</string>
+    <string name="hint_description_action">توضیحات</string>
+    <string name="button_text_action_cancel">انصراف</string>
+    <string name="button_text_action_accept">تایید</string>
+    <string name="hint_count">تعداد دستی</string>
+    <string name="radio_count_one">1</string>
+    <string name="radio_count_two">2</string>
+    <string name="radio_count_three">3</string>
+    <string name="radio_count_fore">4</string>
+    <string name="radio_count_five">5</string>
+    <string name="radio_count_six">6</string>
+    <string name="radio_count_seven">7</string>
+    <string name="radio_count_eight">8</string>
+    <string name="radio_count_nine">9</string>
+    <string name="check_do_app">برنامه</string>
+    <string name="check_do_work">فعالیت</string>
+    <string name="action_accept">تایید</string>
+    <string name="action_close">انصراف</string>
+    <string name="pref_home_app">homeAppPackage</string>
+    <string name="pref_key_app">KEY_APP_TO_BE_RUN</string>
+    <string name="error_toast_CountAction">لطفا مقدار ضربات را انتخاب کنید</string>
+    <string name="error_toast_NameAction">لطفا نام فعالیت مورد نظر را انتخاب کنید</string>
+    <string name="error_toast_DoAction">لطفا یک فعالیت انتخاب کنید</string>
+    <string name="error_toast_enter_value">لطفا تمام مقادیر را پر کنید</string>
+    <string name="check_do_call">تماس</string>
+    <string name="check_do_message">پیام کوتاه</string>
+    <string name="permissionAlert">برنامه نیاز دارد تا دسترسی هایی برای انجام عملیات بدهید</string>
+    <string name="permissionQuestion">آیا از اینکار اطمنیان دارید ؟</string>
+    <string name="permissionDenied">دسترسی داده نشده است لطفا ابتدا دسترسی هارا از تنظیمات بدهید</string>
+    <string name="progress_loading_title">اطلاعیه</string>
+    <string name="progress_loading_message">لطفا منتظر بمانید</string>
+    <string name="check_feild_fp">انگشت ثبت نشده</string>
+    <string name="check_succefully_fp">انگشت ثبت شده</string>
+    <string name="check_fast_fp">حالت سریع</string>
+
+    <string-array name="actions_work">
+        <item>وای فای</item>
+        <item>بلوتوث</item>
+        <item>چراغ قوه</item>
+        <item>صفحه اصلی</item>
+        <item>قفل صفحه</item>
+        <item>آهنگ</item>
+        <item>ویبره</item>
+        <item>میزان صدا</item>
+    </string-array>
+
+    <string-array name="action_value_work">
+        <item>wifi</item>
+        <item>bluetooth</item>
+        <item>flashlight</item>
+        <item>home</item>
+        <item>lock</item>
+        <item>music</item>
+        <item>vibrate</item>
+        <item>volume</item>
+    </string-array>
+
+    <string-array name="music_work">
+        <item>پخش</item>
+        <item>توقف</item>
+        <item>آهنگ بعدی</item>
+        <item>آهنگ قبلی</item>
+    </string-array>
+
+    <string-array name="music_value_action">
+        <item>play</item>
+        <item>stop</item>
+        <item>next</item>
+        <item>backward</item>
+    </string-array>
+
+    <string-array name="volume_work">
+        <item>کم</item>
+        <item>زیاد</item>
+    </string-array>
+    <string-array name="volume_work_value">
+        <item>down</item>
+        <item>up</item>
+    </string-array>
+
+    <!-- for Dialog Message -->
+    <string name="dialog_example_title">راهنما</string>
+    <string name="dialog_example_message_fastfinger">حالت سریع :  \nبرای استفاده باید تعداد دفعات ضربه را از پایین انتخاب کنید و انگشت را سریع از روی سنسور بردارید \nمهم نیست کدام انگشت را استفاده میکنید.\n\nآیا میخواهید این راهنما نمایش داده شود؟</string>
+    <string name="dialog_example_message_succefulfinger">انگشت ثبت شده :  \nاین قسمت برای انگشت اصلی ثبت شده در دستگاه میباشد که میتوانید برای یک عمل امنیتی استفاده کنید.\n\nآیا میخواهید این راهنما نمایش داده شود؟</string>
+    <string name="dialog_example_message_failfinger">انگشت ثبت نشده :  \nاین قسمت زمانی اجرا میشود که شما از انگشتی استفاده کنید که در دستگاه شما ثبت نشده است\nاین قسمت میتواند توسط هر انگشت دیگری جز انگشت ثبت شده استفاده شود.\n\n آیا میخواهید این راهنما نمایش داده شود؟</string>
+    <string name="dialog_example_message_dowork">فعالیت : \nاین قسمت برای فعالیت هایی چون خاموش و روشن کردن میباشد که میتوانید یکی از مقدار های لیست زیر را انتخاب کنید.\n\n آیا میخواهید این راهنما نمایش داده شود؟</string>
+    <string name="dialog_example_message_doapp">برنامه : \n این قسمت برای باز کردن برنامه های نصب شده روی گوشی شما میباشد.\n\n آیا میخواهید این راهنما نمایش داده شود؟</string>
+    <string name="dialog_example_message_docall">تماس : \n این قسمت برای گرفتن تماس با شماره مورد نظر میباشذ\n\n <b>آیا میخواهید این راهنما برای شما نمایش داده شود؟</b></string>
+    <string name="dialog_example_message_domessage">پیام کوتاه : \nاین قسمت برای راسال پیام کوتاه به شماره مورد نظر میباشد\n\n <b>آیا میخواهید این راهنما دوباره نمایش داده شود؟</b></string>
+
+    <!-- sharedpreferences Key and PrefHome -->
+    <string name="PREF_HOME_CHECKER_FASTFINGER">PREF_HOME_CHECK_FASTFINGER</string>
+    <string name="KEY_CHECKER_FASTFINGER">KEY_CHECK_FASTFINGER</string>
+    <string name="PREF_HOME_CHECKER_FAILFINGER">PREF_HOME_CHECK_FAILFINGER</string>
+    <string name="KEY_CHECKER_FAILFINGER">KEY_CHECK_FAILFINGER</string>
+    <string name="PREF_HOME_CHECKER_SUCCEFULFINGER">PREF_HOME_CHECK_SUCCEFULFINGER</string>
+    <string name="KEY_CHECKER_SUCCEFULFINGER">KEY_CHECK_SUCCEFULFINGER</string>
+    <string name="PREF_HOME_CHECKER_DO_APP">PREF_HOME_CHECK_DO_APP</string>
+    <string name="KEY_CHECKER_DO_APP">KEY_CHECK_DO_APP</string>
+    <string name="PREF_HOME_CHECKER_DO_WORK">PREF_HOME_CHECK_DO_WORK</string>
+    <string name="KEY_CHECKER_DO_WORK">KEY_CHECK_DO_WORK</string>
+    <string name="PREF_HOME_CHECKER_DO_CALL">PREF_HOME_CHECK_DO_CALL</string>
+    <string name="KEY_CHECKER_DO_CALL">KEY_CHECK_DO_CALL</string>
+    <string name="PREF_HOME_CHECKER_DO_MESSAGE">PREF_HOME_CHECK_DO_MESSAGE</string>
+    <string name="KEY_CHECKER_DO_MESSAGE">KEY_CHECK_DO_MESSAGE</string>
+    <string name="PREF_HOME_CHECKER_PERMISSION">PREF_HOME_CHECK_PERMISSION</string>
+    <string name="KEY_CHECKER_PERMISSION">KEY_CHECK_PERMISSION</string>
+    <string name="PREF_HOME_CHECKER_INTROSCREEN">PREF_HOME_CHECK_INTROSCREEN</string>
+    <string name="KEY_CHECKER_INTROSCREEN">KEY_CHECK_INTROSCREEN</string>
+    <string name="PREF_HOME_CHECKER_CREATE_FINGERPRINT_SERVICE">PREF_HOME_FINGERPRINT_SERVICE</string>
+    <string name="KEY_CHECKER_CREATE_FINGERPRINT_SERVICE">KEY_CHECKER_FRINGERPRINT_SERVICE</string>
+    <string name="preference_key_admin">PREFERENCE_KEY_ADMIN_LOCK_SCREEN</string>
+
+
+    <!-- for Dialog message Question -->
+    <string name="dialog_question_message_show_or_not">آیا میخواهید این راهنما دوباره نمایش داده شود؟</string>
+    <string name="dialog_button_positive_text_check">میخوام</string>
+    <string name="dialog_button_negative_text_check">نمیخوام</string>
+    <string name="text_example_action_count">تعداد دفعات ضربه</string>
+    <string name="dialog_button_positive_yes">باشه!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_button_negative_no">نه</string>
+    <string name="text_permission_helping">لطفا دسترسی های لازم را برای انجام عملیات بدهید\nتا زمانی که دسترسی داده نشده است شما اجازه ورود به برنامه را نخواهید داشت</string>
+    <string name="btn_permission">درخواست دسترسی</string>
+    <string name="error_toast_fingerprint">لطفا یکی از مقادیر اثر انگشت را انتخاب کنید</string>
+    <string name="succeful_toast_insert">اطلاعات با موفقیت ثبت شد</string>
+    <string name="permission_toast_getpermission">لطفا دسترسی مورد نظر را بدهید</string>
+    <string name="error_toast_not_insert">اطلاعات ثبت نشد \n</string>
+
+
+    <!-- for Action Checker And Finger Checker -->
+    <string name="doCall">call</string>
+    <string name="doMessage">message</string>
+    <string name="doWork">work</string>
+    <string name="doApp">app</string>
+    <string name="fingerFast">fast</string>
+    <string name="fingerSucceful">succeful</string>
+    <string name="fingerFail">fail</string>
+    <string name="preference_desciption_setting">برای انجام عملیات باید حتما این سرویس را فعال کنید تا بتوانید از برنامه استفاده کنید</string>
+    <string name="preference_title_check_front_fp">وقفه سنسور</string>
+    <string name="preference_summery_check_front_fp">این گزینه برای گوشی هایی که سنسور اثرانگشت آنها جلو میباشد میتواند کاربردی باشد</string>
+    <string name="preference_summery_check_front_fp_help">با فعال کردن این گزینه برای استفاده از انجام عملیات ابتدا باید دوبار بصورت سریع دست خود را روی سنسور برداشته و بزارید تا یک ویبره شدید احساس کنید شما تا ویبره شدید بعدی یک زمانی دارید تا اعمال خود را انجام دهید پس از احساس ویبره شدید دوم باید دوباره انگشتتان را دوبار بفشارید.\n\n آیا میخواهید این راهنما نمایش داده شود؟</string>
+    <string name="preference_key_check_front_fp">CHECK_FP_SLEEP_MOMENT</string>
+    <string name="preference_title_edit_timer">وقفه زمان</string>
+    <string name="preference_summery_edt_timer">این میزان زمان تا پاسخ عمل است، این زمان باعث میشود که بتوانید میزان ضربات را آهسته تر یا تندتر بزنید\n این زمان بر حسب ثانیه میباشد\n برای انجام شدن تغییرات یک بار گوشی را قفل و باز کنید</string>
+    <string name="preference_key_edt_timer">TIMER_FOR_ZERO_COUNT</string>
+    <string name="preference_title_dialog_edt_timer">وقفه زمان</string>
+    <string name="preference_message_dialog_edt_timer">زمان مورد نظر را وارد کنید</string>
+    <string name="preference_text_btn_positive_dialog">ثبت</string>
+    <string name="preference_text_btn_negative_dialog">لغو</string>
+    <string name="error_toast_admin_not_active">شما باید دسترسی ویژه برای قفل صفحه را بدهید</string>
+    <string name="preference_title_admin">دسترسی ویژه</string>
+    <string name="preference_summery_admin">این دسترسی فقط برای قفل صفحه میباشد و باید از قسمت امنیت تنظیمات انجام گیرد\n اگر این گزینه فعال باشید برای حذف برنامه باید حتما از تنظیمات این گزینه را غیرفعال کنید</string>
+    <string name="add_admin_extra_app_text">لطفا دسترسی برای قفل صفحه را اعمال کنید</string>
+    <string name="toast_admin_succeful">تنظیمات مربوط به دسترسی ویژه انجام گرفته است</string>
+    <string name="toast_admin_for_disable">برای غیرفعال کردن این گزینه به تنظیمات مراجعه کنید</string>
+    <string name="toast_admin_for_enable">لطفا دسترسی ویژه را از تنظیمات اعمال کنید</string>
+    <string name="preference_title_edit_timer_samsung">زمان اجرا</string>
+    <string name="preference_summery_edt_timer_samsung">این زمان فقط زمانی قابل اجرا میباشد که گزینه ی بالا فعال باشد و درصورت فعال بودن گزینه بالا شما در این مدت زمان توان اجرای اعمال خود را دارید</string>
+    <string name="preference_key_edt_timer_samsung">KEY_TIMER_SAMI_SENSOR</string>
+    <string name="PREF_HOME_CHECKER_FRONT_FP">PREF_HOME_SENSOR_FINGERPRINT</string>
+    <string name="KEY_CHECKER_FRONT_FP">KEY_CHECKER_FRONT_FINGERPRINT</string>
+    <string name="snackbar_message_edet_action">انجام عملیات برای گزینه : </string>
+    <string name="snackbar_text_btn_edit_action">ویرایش</string>
+    <string name="action_delete">حذف</string>
+    <string name="dialog_warning_delete">آیا از اینکار اطمینان دارید؟</string>
+    <string name="toast_delete_accept">اطلاعات با موفقیت حذف شد</string>
+    <string name="dialog_message_for_accessibility">لطفا در بخش تنظیمات دسترسی به سرویس هارا بدهید</string>
+    <string name="dialog_title_for_accessibility">Accessibility</string>
+    <string name="toast_accessibility_disable">باید حتما دسترسی Accessibility را فعال کنید</string>
+    <string name="error_toast_fingerprint_notsupported">دستکاه شما فاقد حسگر اثرانگشت میباشد</string>
+    <string name="dialog_title_for_fingerprint_setting">اثرانگشت</string>
+    <string name="dialog_message_for_fingerprint">از بخش تنظیمات لطفا یکی از انگشتانتان را ثبت کنید</string>
+    <string name="toast_update_accept">اطلاعات با موفقیت ویرایش گردید</string>
+    <string name="action_helping">راهنما</string>
+    <string name="action_aboutus">درباره ما</string>
+    <string name="intro_title_first_page">اضافه کردن</string>
+    <string name="intro_description_first_page">برای اضافه کردن یک عمل روی آیکون کلیک کنید</string>
+    <string name="intro_title_second_page">دسترسی ها</string>
+    <string name="intro_description_second_page">برای انجام عملیات دسترسی هارا که در هنگام استفاده از برنامه از شما میخواهد بدهید</string>
+    <string name="intro_title_third_page">لذت ببرید</string>
+    <string name="intro_description_third_page">قبل از استفاده راهنمارا بخوانید</string>
+    <string name="dialog_message_bug_send">یک خطا رخ داده است میخواهید به توسعه دهنده اطلاع دهید؟\n این کار باعث پیشرفت برنامه میشود</string>
+    <string name="app_send_email">یک برنامه ایمیل انتخاب کنید</string>
+    <string name="activity_help">راهنما</string>
+    <string name="toast_error_distrub">شما درحالت سایلنت هستید نمیتوانید به ویبره بروید ویا به حالت معمولی بروید</string>
+    <string name="toast_fail_finger">انگشت ثبت نشده</string>
+    <string name="label_aboutus">درباره ما</string>
+    <string name="mohammad_nazem">محمد ناظم</string>
+    <string name="gmail">iiviiohammad.nzm@gmail.com</string>
+    <string name="site">www.dashwood.ir</string>
+    <string name="help_body_message">برای استفاده هرچه بهتر از برنامه لطفا دسترسی هارا بطور کامل بدهید\n\n <b>نکته یک</b> : \nاگر برنامه ای باز میکنید که از حسگر اثر انگشت استفاده می کند مثل برنامه های بعضی از بانک ها حتما پس از اتمام کار یک بار صفحه تلفن همراه را قفل کنید و دوباره باز کنید.\n <b>\nنکته دو</b> : \nتمام راهنما هایی که هنگام استفاده از برنامه به شما نمایش داده میشود را بخوانید این راهنماها میتواند برای استفاده هرچه بهتر برنامه به شما کمک کنند.\n\n<b>نکته سه</b> : \nاگر از تلفن همراه استفاده میکنید که حسگر اثرانگشت آن بر روی دکمه خانه قرار دارد از منوی تنظیمات وقفه زمان را فعال کنید اینکار باعث میشود تا زمانی که شما عمل فعال سازی را انجام نداده اید هیچ عملی انجام نشود\n\n <b>نکته چهار</b> : \nاگر از انگشت ثبت نشده استفاده میکنید بخاطر داشته باشید که استفاده چندبار پشت سرهم از انگشت ثبت نشده در دستگاه باعث غیرفعال شدن برنامه میشود و باید برای فعال سازی دوباره یک بار تلفن همراه را قفل و دوباره باز کنید ( حتما به خاطر داشته باشید که این غیر فعال سازی توسط سیستم عامل انجام میشود و حسگر بصورت کامل غیرفعال میشود و تا زمانی که قفل صفحه با رمز باز نشود امکان استفاده از حسگر توسط سیستم عامل داده نمیشود)<b>\n\nنکته پنج :\n</b>اگر در هنگام استفاده از حسگر به شما پیغام <b>انگشت ثبت نشده</b> نمایش داده شد یعنی انگشت شما توسط دستگاه قابل شناسایی نیست پس هنگام استفاده سعی کنید از انگشت ثبت شده استفاده کنید تا دچار مشکل (<b>نکته چهار</b>) نشوید (این نکته برای تلفن همراه هایی میباشد که حسگر اثر انگشت بر روی دکمه خانه قرار دارد و ممکن است مورد استفاده زیاد قرار گیرد همچنین میتوانید برای مورد استفاده قرار ندادن دکمه خانه از قسمت <b>فعالیت</b> گزینه ی <b>صفحه اصلی</b> را فعال کنید تا با حسگر به صفحه اصلی بروید)<b>\n\nنکته شش :\n</b>اگر به هر دلیلی حسگر فعالیتی از خود نشان نداد و با قفل کردن صفحه و باز کدن مجدد آن باز هم حسگر فعال نشد به تنظیمات تلفن همراه خود بروید و به قسمت Accessibility مراجعه کنید و بعد حسگر اثر انگشت را یک بار غیرفعال نموده و دوباره فعال کنید<b>\n\nنکته هفت :</b> \nاگر حسگر تلفن همراه شما کار میکند اما هیچگونه از عملیات ها انجام نمیشود یک بار برنامه را باز کنید<b>\n\nنکته هشت :</b> \nکم و زیاد کردن میزان صدا در هر قسمت (موسیقی، مکالمه، حالت عادی) متفاوت است.\n\n\nبرای حذف و ویرایش یک بار روی یکی از عملیات ثبت شده کلیک کنید و در منوی باز شده پایین صفحه روی ویرایش کلیک کنید.</string>
+    <string name="toast_error_app_run">این برنامه قابل اجرا نمیباشد</string>
+    <string name="PREF_HOME_CHECKER_FLASHLIGHT">PREHOME_FLASHLIGHT_CHECKER</string>
+    <string name="KEY_CHECKER_FLASHLIGHT">KEY_FLASHLIGHT_CHECKER</string>
+    <string name="version">ورژن برنامه : 1.60</string>
+    <string name="PREF_HOME_CHECKER_HELP_VIEW">PREFHOME_CHECKER_READ_HELP</string>
+    <string name="KEY_CHECKER_HELP_VIEW">KEY_CHECKER_READ_HELP</string>
+    <string name="dialog_title_for_help">راهنما</string>
+    <string name="dialog_message_for_help">لطفا حتما قبل از استفاده از برنامه صفحه راهنما را بخوانید</string>
+    <string name="PREF_HOME_CHECKER_HELP_SETTING">PREFHOME_CHECKER_SETTING_HELPER</string>
+    <string name="KEY_CHECKER_HELP_SETTING">KEY_CHECKER_SETTING_HELPER</string>
+    <string name="dialog_message_help_setting">برای اعمال شدن تمام تغییرات یک بار تلفن همراه خود را قفل و مجددا باز کنید</string>
+    <string name="toast_sami_enable">وقفه زمان فعال شد</string>
+    <string name="toast_end_time_deley">وقفه زمان غیرفعال شد</string>
+    <string name="Attr_Toast">Toast</string>
+    <string name="toast_msg_call">تماس برقرار شد</string>
+    <string name="toast_msg_app">برنامه باز شد</string>
+    <string name="toast_msg_work">فعالیت انجام شد</string>
+    <string name="toast_msg_message">پیام کوتاه باز شد</string>
+    <string name="toast_msg_noneAction">هیچ فعالیتی ثبت نشده است</string>
+    <string name="shortcut_label_short">اضافه کردن</string>
+    <string name="shortcut_label_long">اضافه کردن یک فعالیت</string>
+    <string name="shortcut_msg">اضافه کردن یک فعالیت برای انگشت</string>
+    <string name="label_activityActions">اضافه و ویرایش</string>
+    <string name="intent_putextra_edit">positionActions</string>
+    <string name="toast_update_dissmass">ویرایش انجام نشد</string>
+    <string name="PREF_HOME_CHECKER_STARS">PREF_HOME_STARS_CHECKER</string>
+    <string name="KEY_CHECKER_STARS">KEY_STARTS_CHECKER_DONE</string>
+    <string name="dialog_title_for_stars">لطفا رای دهید</string>
+    <string name="dialog_message_for_stars">از برنامه لذت می برید؟\n لطفا به برنامه رای دهید</string>
+    <string name="PREF_HOME_CHECKER_DAY_FOR_STARS">PREFHOME_CHECKER_FOR_DAY</string>
+    <string name="KEY_CHECKER_DAY_FOR_STARS">KEY_CHECKER_FOR_DAY</string>
+    <string name="PREF_HOME_INT_DAY">PREFHOME_INT_DAY</string>
+    <string name="KEY_INT_DAY">KEY_INT_FOR_DAY</string>
+    <string name="dialog_button_positive_stars">رای میدم</string>
+    <string name="dialog_button_negativeButton_stars">نمایش نده</string>
+    <string name="action_deleted">فعالیت مورد نظر با موفقیت حذف شد</string>
+    <string name="dialog_title_for_update">آپدیت جدید</string>
+    <string name="dialog_message_for_update">آپدیت جدید برنامه هم اکنون قابل دسترسی میباشد</string>
+    <string name="dialog_title_warning_delete">حذف</string>
+    <string name="dialog_title_permission">دسترسی</string>
+    <string name="preference_title_backup">پشتیبان گیری</string>
+    <string name="preference_summery_backup">برای نگه داشتن اطلاعات میتوانید یک نسخه پشتیبان بگیرید</string>
+    <string name="img_description_icon_alert">icon</string>
+    <string name="pref_title_language">زبان</string>
+    <string name="preference_summery_language">زبان برنامه</string>
+
+    <string-array name="langArray">
+        <item>فارسی</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="btn_startup_next">بعدی</string>
+    <string name="btn_startup_skip">رد کردن</string>
+    <string name="btn_startup_start">تمام!</string>
+    <string name="text_startup_welcome">به دنیایی حسگر اثرانگشت خوش آمدید</string>
+    <string name="text_startup_pageone_nextstation">برای استفاده بهتر از برنامه مراحل را دنبال کنید</string>
+    <string name="text_startup_pagetwo_selectaction">کدام یک از حالت های برنامه را میخواهید؟</string>
+    <string name="radio_swipe_action">کشیدن</string>
+    <string name="radio_touch_action">لمس کردن</string>
+
+    <string name="text_startup_pagethree_permission">دسترسی برنامه به قابلیت های گوشی\nو\nاضافه کردن انگشت برای باز کردن قفل صفحه</string>
+    <string name="text_startup_pagethree_permission_btn">برای فعال کردن دسترسی اینجارا لمس کنید</string>
+    <string name="text_startup_pagezero_select_lang">زبان خود را انتخاب کنید</string>
+    <string name="text_startup_pagetwo_androidoreo">فقط برای اندروید 8 (اوریو)</string>
+    <string name="text_startup_pagethree_security_btn">یک انگشت در تنظیمات امنیت خود اضافه کنید</string>
+
+
+
+</resources>

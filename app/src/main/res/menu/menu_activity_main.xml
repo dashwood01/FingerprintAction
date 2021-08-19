@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.dashwood.fingerprintsensor.ActivityMain">
+    <item
+        android:id="@+id/btnActionSettings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnActionHelping"
+        android:orderInCategory="200"
+        android:title="@string/action_helping" />
+    <item
+        android:id="@+id/btnActionAboutUs"
+        android:orderInCategory="300"
+        android:title="@string/action_aboutus" />
+</menu>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/startup_color_two"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="@color/bg_white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_startup_pagetwo_selectaction"
+            android:textColor="@color/bg_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="" />
+
+            <TextView
+                android:id="@+id/txtStartupTwoAndroid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/text_startup_pagetwo_androidoreo"
+                android:textColor="@color/bg_white"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rdSwipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/radio_swipe_action"
+                android:textColor="@color/bg_white" />
+
+            <ImageButton
+                android:id="@+id/btnHelpSwipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_bg_button_page_two"
+                android:padding="10dp"
+                android:src="@drawable/ic_help" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="" />
+
+            <TextView
+                android:id="@+id/txtStartupForView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rdTouch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/radio_touch_action"
+                android:textColor="@color/bg_white" />
+
+            <ImageButton
+                android:id="@+id/btnHelpTouch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_bg_button_page_two"
+                android:padding="10dp"
+                android:src="@drawable/ic_help" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

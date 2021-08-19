@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_plus_shortcuts"
+        android:shortcutShortLabel="@string/shortcut_label_short"
+        android:shortcutLongLabel="@string/shortcut_label_long"
+        android:shortcutDisabledMessage="@string/shortcut_msg">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.app.dashwood.fingerprintsensor"
+            android:targetClass="com.app.dashwood.fingerprintsensor.ActivityActions" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/action_settings">
+        <ListPreference
+            android:defaultValue="English"
+            android:dialogIcon="@drawable/ic_lang"
+            android:dialogTitle="@string/pref_title_language"
+            android:entries="@array/langArray"
+            android:entryValues="@array/langArray"
+            android:icon="@drawable/ic_lang"
+            android:key="@string/preference_key_language"
+            android:summary="@string/preference_summery_language"
+            android:title="@string/pref_title_language"
+            android:negativeButtonText="@string/button_text_action_cancel"
+
+            />
+        <SwitchPreference
+            android:icon="@drawable/ic_finger"
+            android:key="@string/preference_key_check_front_fp"
+            android:summary="@string/preference_summery_check_front_fp"
+            android:textSize="100sp"
+            android:title="@string/preference_title_check_front_fp" />
+        <EditTextPreference
+            android:defaultValue="10"
+            android:dialogMessage="@string/preference_message_dialog_edt_timer"
+            android:dialogTitle="@string/preference_title_dialog_edt_timer"
+            android:enabled="false"
+            android:icon="@drawable/ic_timer"
+            android:inputType="number"
+            android:key="@string/preference_key_edt_timer_samsung"
+            android:maxLength="2"
+            android:negativeButtonText="@string/preference_text_btn_negative_dialog"
+            android:positiveButtonText="@string/preference_text_btn_positive_dialog"
+            android:summary="@string/preference_summery_edt_timer_samsung"
+            android:title="@string/preference_title_edit_timer_samsung" />
+        <SwitchPreference
+            android:icon="@drawable/ic_lock"
+            android:key="@string/preference_key_admin"
+            android:summary="@string/preference_summery_admin"
+            android:title="@string/preference_title_admin" />
+        <EditTextPreference
+            android:defaultValue="1"
+            android:dialogMessage="@string/preference_message_dialog_edt_timer"
+            android:dialogTitle="@string/preference_title_dialog_edt_timer"
+            android:icon="@drawable/ic_timer"
+            android:inputType="number"
+            android:key="@string/preference_key_edt_timer"
+            android:maxLength="1"
+            android:negativeButtonText="@string/preference_text_btn_negative_dialog"
+            android:positiveButtonText="@string/preference_text_btn_positive_dialog"
+            android:summary="@string/preference_summery_edt_timer"
+            android:title="@string/preference_title_edit_timer" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

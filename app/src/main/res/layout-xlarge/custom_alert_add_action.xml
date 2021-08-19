@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_layout_alert_add"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtNameAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name_action"
+            android:textSize="42sp" />
+
+        <EditText
+            android:id="@+id/edtDesAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_description_action"
+            android:textSize="42sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkFailFinger"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layoutDirection="rtl"
+                    android:text="@string/check_feild_fp"
+                    android:textSize="32sp" />
+
+                <CheckBox
+                    android:id="@+id/chkSuccefulFinger"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layoutDirection="rtl"
+                    android:text="@string/check_succefully_fp"
+                    android:textSize="32sp" />
+
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/chkFastFinger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:layoutDirection="rtl"
+                android:text="@string/check_fast_fp"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_example_action_count"
+                android:textDirection="rtl"
+                android:textSize="42sp" />
+
+            <RadioGroup
+                android:id="@+id/rdGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdCountOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_one"
+                    android:textSize="32sp" />
+
+                <RadioButton
+                    android:id="@+id/rdCountTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_two"
+                    android:textSize="32sp" />
+
+                <RadioButton
+                    android:id="@+id/rdCountThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_three"
+                    android:textSize="32sp" />
+
+                <RadioButton
+                    android:id="@+id/rdCountFore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_fore"
+                    android:textSize="32sp" />
+
+                <RadioButton
+                    android:id="@+id/rdCountFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_five"
+                    android:textSize="32sp" />
+
+                <RadioButton
+                    android:id="@+id/rdCountSix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_six"
+                    android:textSize="32sp" />
+
+                <RadioButton
+                    android:id="@+id/rdCountSeven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_seven"
+                    android:textSize="32sp" />
+
+                <RadioButton
+                    android:id="@+id/rdCountEight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_eight"
+                    android:textSize="32sp" />
+
+                <RadioButton
+                    android:id="@+id/rdCountNine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/radio_count_nine"
+                    android:textSize="32sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chkDoApp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layoutDirection="rtl"
+                android:text="@string/check_do_app"
+                android:textSize="42sp" />
+
+            <CheckBox
+                android:id="@+id/chkDoWork"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layoutDirection="rtl"
+                android:text="@string/check_do_work"
+                android:textSize="42sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chkDoCall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layoutDirection="rtl"
+                android:text="@string/check_do_call"
+                android:textSize="42sp" />
+
+            <CheckBox
+                android:id="@+id/chkDoMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layoutDirection="rtl"
+                android:text="@string/check_do_message"
+                android:textSize="42sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="42sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recShowActions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

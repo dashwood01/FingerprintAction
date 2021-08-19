@@ -1,0 +1,5 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityFlags="flagRequestFingerprintGestures"
+    android:canRequestFingerprintGestures="true"
+    android:description="@string/preference_desciption_setting"
+    />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edt_name_action_size_text">18sp</dimen>
+    <dimen name="chk_name_action_size_text">16sp</dimen>
+    <dimen name="rd_text_action_size_text">14sp</dimen>
+    <dimen name="txt_action_view_size">16sp</dimen>
+    <dimen name="img_width_height_rec_fp">72dp</dimen>
+    <dimen name="preference_margin">26dp</dimen>
+</resources>
