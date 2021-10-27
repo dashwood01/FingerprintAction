@@ -1,15 +1,8 @@
 package com.app.dashwood.fingerprintsensor;
 
-import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-
-import com.app.dashwood.fingerprintsensor.datasave.Data;
-import com.app.dashwood.fingerprintsensor.extra.ContextWrapper;
-
-import java.util.Locale;
+import androidx.appcompat.widget.Toolbar;
 
 public class ActivityAboutUs extends AppCompatActivity {
 

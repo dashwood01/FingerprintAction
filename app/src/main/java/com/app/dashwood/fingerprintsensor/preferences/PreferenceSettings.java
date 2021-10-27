@@ -1,11 +1,8 @@
 package com.app.dashwood.fingerprintsensor.preferences;
 
 import android.app.Activity;
-import android.app.ActivityManager;
-import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.EditTextPreference;
@@ -14,7 +11,7 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.SwitchPreference;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,7 +26,6 @@ import com.app.dashwood.fingerprintsensor.extra.A;
 import com.app.dashwood.fingerprintsensor.extra.ContextWrapper;
 import com.app.dashwood.fingerprintsensor.listener.OnClickDialogListener;
 import com.app.dashwood.fingerprintsensor.log.DialogCustom;
-import com.app.dashwood.fingerprintsensor.log.T;
 
 import java.util.Locale;
 

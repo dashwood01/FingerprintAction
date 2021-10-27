@@ -3,19 +3,17 @@ package com.app.dashwood.fingerprintsensor.adapter;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.app.dashwood.fingerprintsensor.R;
@@ -26,7 +24,6 @@ import com.app.dashwood.fingerprintsensor.log.T;
 import com.app.dashwood.fingerprintsensor.preferences.PreferenceSettings;
 
 import java.util.ArrayList;
-import java.util.concurrent.RunnableFuture;
 
 public class AdapterRecShowActions extends RecyclerView.Adapter<AdapterRecShowActions.ViewHolder> {
 

@@ -1,7 +1,6 @@
 package com.app.dashwood.fingerprintsensor.fingerprint;
 
 import android.Manifest;
-import android.accessibilityservice.FingerprintGestureController;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.content.Intent;
@@ -21,13 +20,12 @@ import android.preference.PreferenceManager;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyPermanentlyInvalidatedException;
 import android.security.keystore.KeyProperties;
-import android.support.v4.app.ActivityCompat;
+import androidx.core.app.ActivityCompat;
 
 import com.app.dashwood.fingerprintsensor.R;
 import com.app.dashwood.fingerprintsensor.datasave.Data;
 import com.app.dashwood.fingerprintsensor.dataset.InformationFPAction;
 import com.app.dashwood.fingerprintsensor.extra.A;
-import com.app.dashwood.fingerprintsensor.extra.ContextWrapper;
 import com.app.dashwood.fingerprintsensor.extra.SendEmail;
 import com.app.dashwood.fingerprintsensor.log.T;
 
@@ -40,7 +38,6 @@ import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.UnrecoverableKeyException;
 import java.security.cert.CertificateException;
-import java.util.Locale;
 import java.util.Objects;
 
 import javax.crypto.Cipher;

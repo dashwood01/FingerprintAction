@@ -2,12 +2,11 @@ package com.app.dashwood.fingerprintsensor.fingerprint;
 
 import android.accessibilityservice.FingerprintGestureController;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.RequiresApi;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
@@ -18,8 +17,6 @@ import com.app.dashwood.fingerprintsensor.dataset.InformationFPAction;
 import com.app.dashwood.fingerprintsensor.extra.A;
 import com.app.dashwood.fingerprintsensor.log.T;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.Objects;
 
 @RequiresApi(api = Build.VERSION_CODES.O)

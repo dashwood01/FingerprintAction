@@ -2,7 +2,7 @@ package com.app.dashwood.fingerprintsensor.log;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -13,8 +13,6 @@ import android.widget.TextView;
 import com.app.dashwood.fingerprintsensor.R;
 import com.app.dashwood.fingerprintsensor.datasave.Data;
 import com.app.dashwood.fingerprintsensor.listener.OnClickDialogListener;
-
-import java.util.Locale;
 
 public class DialogCustom {
     private AlertDialog alertDialog;
